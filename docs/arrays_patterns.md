@@ -41,7 +41,7 @@ Maintain a contiguous window that expands or shrinks while tracking a condition 
 |--------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | **Fixed size (k)** | "Max sum of subarray of size k", "Average of every k elements"          | Window length is always k. Expand right, shrink left when size > k; update when size == k. |
 | **Variable size**  | "Longest subarray with sum <= S", "Minimum window containing all chars" | Expand right until condition is met; shrink left to improve (min/max length); track best. |
-| **At most / at least k** | "Longest subarray with at most 2 distinct", "Subarrays with exactly k odd" | Combine fixed/variable logic with a condition (e.g. count distinct, count odd). |
+| **At most / at least k** | "Longest subarray with at most 2 distinct", "Subarrays with exactly k odd" | Combine fixed/variable logic with a condition (e.g. count distinct, count odd). Simiar as Variable size with conditions|
 
 > **Tip:** If the problem says "contiguous" and "subarray" or "substring", think sliding window first.
 
