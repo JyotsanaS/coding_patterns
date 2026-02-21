@@ -27,15 +27,22 @@ Maintain a contiguous window that expands or shrinks while tracking a condition 
 
 **Approach:** Expand right to include new element; shrink left when window violates the constraint (or when size > k); update the answer when the window is valid.
 
-**Example problems:**
+**From Blind 75**:
 
-- Max sum subarray of size K
-- Longest subarray with sum <= S
-- Minimum window substring
-- Longest substring with at most K distinct characters
-- Max consecutive ones III
-- Subarray product less than K
-- Permutation in string
+- [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+- [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+- [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+
+**Other Problems:**
+
+- [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) (max sum subarray of size K)
+- [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) (variable window, sum ≥ target)
+- [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
+- [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+- [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 
 | Sub-pattern        | Use when                                                                 | Key idea                                                                 |
 |--------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
